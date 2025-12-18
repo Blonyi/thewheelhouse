@@ -3,27 +3,28 @@ import { FacilityType } from './types';
 
 export const FACILITIES = [
   {
-    type: FacilityType.KIDS_RINK,
-    title: "Zona Infantil",
-    description: "Espacio seguro con monitores y ayudantes de animales (elefantes, tigres y jirafas) para que los más pequeños aprendan a rodar con confianza.",
-    icon: "🐘",
-  },
-  {
     type: FacilityType.ADULTS_RINK,
     title: "Pista Principal",
-    description: "Nuestra pista estrella rodeada de neones lineales y sonido envolvente. La mejor experiencia de patinaje de la ciudad.",
+    description: "Nuestra pista estrella con el logo oficial en el centro, iluminación de neón dinámica y el mejor ambiente de Las Palmas.",
     icon: "🛼",
+    image: "https://images.unsplash.com/photo-1517456793572-1d8efd6ad13e?q=80&w=1200&auto=format&fit=crop", // Imagen representativa de la pista real
+  },
+  {
+    type: FacilityType.KIDS_RINK,
+    title: "Zona Infantil",
+    description: "Área protegida con monitores y nuestros famosos ayudantes (elefantes, tigres y jirafas) para los más pequeños.",
+    icon: "🐘",
   },
   {
     type: FacilityType.KARAOKE,
     title: "Karaoke VIP",
-    description: "Salas privadas insonorizadas con luces LED y el catálogo más completo para cantar con tus amigos.",
+    description: "Salas privadas insonorizadas con tecnología de sonido envolvente y luces LED reactivas.",
     icon: "🎤",
   },
   {
     type: FacilityType.BAR,
     title: "The Diner",
-    description: "Auténtica comida americana: perritos calientes premium, papas fritas crujientes y batidos. El sabor de los 50 sobre ruedas.",
+    description: "Perritos calientes premium, papas fritas y auténticos batidos americanos. Comida rápida de alta calidad.",
     icon: "🌭",
   }
 ];
